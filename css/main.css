@@ -685,10 +685,14 @@ table {
     margin-bottom: 10px;
   }
   .regular-clients {
-    margin-right: 50px;
+    margin-left: 50px;
+    height: 300px;
+  }
+  .regular-clients-list {
+    flex-wrap: wrap;
   }
   .regular-clients-item  {
-    width: 80px;
+    width: 30%;
   }
   .footer-form {
     position: absolute;
