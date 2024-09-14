@@ -392,6 +392,7 @@ table {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
+  text-align: center;
 }
 
 .regular-clients-item i {
@@ -401,6 +402,7 @@ table {
   height: 250px;
   border: 0px;
   border-radius: 10px 10px;
+
 }
 .regular-clients-link {
   text-decoration: none;
@@ -424,7 +426,6 @@ table {
 .foot-h3 {
   color: white;
   text-align: center;
-  padding-left: 100px;
 }
 .foot-list i {
   color: white;
@@ -432,7 +433,6 @@ table {
   border-radius: 50%;
 }
 .foot-list {
-  padding-left: 100px;
 }
 .foot-wrap {
   display: flex;
@@ -469,7 +469,7 @@ table {
 }
 .thumb-p {
   position: relative;
-  top: 202px;
+  bottom: -15px;
   font-size: 18px;
   font-weight: 700;
 
@@ -594,6 +594,14 @@ table {
   height: 90px;
   display: inline-block;
 }
+.thumb {
+  position: relative;
+}
+.thumb-p {
+  position: absolute; 
+  left: 0 ;
+  bottom: -15px ;
+}
 
 /* adaptive */ 
 
@@ -602,6 +610,7 @@ table {
   .container {
     width: 1140px;
   }
+
 }
 
 /* Large: 992px - 1199px */
@@ -670,7 +679,7 @@ table {
     position: relative;
   }
   .thumb-p {
-    top: 170px;
+    bottom: -15px;
     left: 0;
     position: absolute;
   }
@@ -732,7 +741,7 @@ table {
     position: relative;
   }
   .thumb-p {
-    top: 105px;
+    bottom: -15px;
     left: 0;
     position: absolute;
   }
@@ -792,7 +801,7 @@ table {
   .thumb-p {
     position: absolute;
     left: 0;
-    top: 356px;
+    bottom : -15px;
   }
   .secc-figure {
     width: 100%;
@@ -808,7 +817,7 @@ table {
   }
   .regular-clients-list {
     flex-wrap: wrap;
-    margin-left: 60px;
+    padding: 0;
   }
   .regular-clients-item {
     width: 30%;
@@ -828,7 +837,6 @@ table {
   left: 85px;
 }
 .section-four-link-item   {
-  height: 200px;
   width: auto;
 }
 .regular-clients .mainn-h1 {
@@ -849,30 +857,27 @@ table {
   position: relative;
   height: 400px;
 }
+.foot-wrap {
+  flex-direction: column;
+  align-items: center;
+}
 .foot-wrap-one {
-  position: absolute;
-  top: 50px;
-  left: 220px;
+ 
 }
 .foot-wrap-two {
-  position: absolute;
-  top: 180px;
-  left: 120px;
+  
 }
 .footer-form {
   position: absolute;
   top: 300px;
-  left: 135px;
+  left: 50px;
 }
 .footer-form-header {
   text-align: center;
 }
 .footer-form-btn {
-  position: absolute;
-  bottom: 5px;
-  left: 70px;
-
-
+   
 
 }
+
 }
