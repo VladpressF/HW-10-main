@@ -441,6 +441,9 @@ text-align: left;
     
     
   }
+  footer {
+    height: 450px !important;
+  }
   .figm {
     display: block;
     width: 100%;
@@ -532,6 +535,7 @@ text-align: left;
   .container {
     width: 720px;
   }
+<<<<<<< Updated upstream
   .container-for-button123 {
     padding-top: 15px;
   }
@@ -546,6 +550,21 @@ text-align: left;
   }
 
   
+=======
+  .overlay p {
+    font-size: 12px;
+  }
+  .container-for-button123 {
+    padding-top: 15px;
+  }
+  .overlay:hover {
+    height: 60%;
+  }
+
+.figures figcaption  {
+  font-size: 16px;
+}
+>>>>>>> Stashed changes
 }
 
 /* Small: 576px - 767px */
@@ -553,6 +572,7 @@ text-align: left;
   .container {
     width: 540px;
   }
+<<<<<<< Updated upstream
   .header { 
     position: relative;
   }
@@ -574,6 +594,36 @@ text-align: left;
     font-size: 12px;
   }
  
+=======
+ 
+  .header {
+    position: relative;
+
+  }
+
+  .header-img {
+    position: absolute;
+    left: 20px;
+    top: 38px;
+  }
+  .header-nav {
+    padding-left: 50px;
+  }
+  .overlay:hover p {
+    font-size: 10px;
+  }
+  .overlay:hover {
+    height: 50%;
+  }
+  .figures figcaption {
+    font-size: 14px;
+    text-align: left;
+  }
+  .footer {
+    position: relative;
+   }
+  
+>>>>>>> Stashed changes
 }
 
 /* Extra small: 0px (320px) - 575px */
@@ -582,6 +632,7 @@ text-align: left;
     width: 100%;
     padding: 0 15px;
   }
+<<<<<<< Updated upstream
   .header {
     position: relative;
   }
@@ -627,6 +678,36 @@ text-align: left;
     
   }
  
+=======
+  .container-for-button123 {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .container-for-button123 .but {
+    width: 30%;
+    
+  }
+  .sec2  {
+    flex-wrap: wrap;
+
+  }
+  .figures {
+    width: 45%;
+    
+  }
+  .footer { 
+    height: 450px;
+    position: relative;
+    padding: 0;
+    padding-top: 20px;
+  }
+  .foot-wrap {
+    margin-top: 50px;
+  }
+  .footer-form-input {
+    margin-bottom: 50px;
+  }
+>>>>>>> Stashed changes
 }
 
 
