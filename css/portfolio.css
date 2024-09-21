@@ -511,6 +511,9 @@ footer {
   .container {
     width: 960px;
   }
+  .footer-form-input {
+    width: 250px;
+  }
 }
 
 /* Medium: 768px - 991px */
@@ -545,6 +548,13 @@ footer {
   .figures figcaption {
     font-size: 16px;
   }
+  .figures {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  .foot-wrap {
+    justify-content: space-around;
+  }
+
 }
 
 /* Small: 576px - 767px */
@@ -552,6 +562,10 @@ footer {
   .container {
     width: 540px;
   }
+  .figures {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+
  .header {
     position: relative;
   }
@@ -618,9 +632,7 @@ footer {
   .container-for-button123 .but {
     width: 20%;
   }
-  .but {
-    font-size: 7px;
-  }
+  
   .header-nav-list {
     position: absolute;
     top: 10px;
@@ -637,9 +649,7 @@ footer {
   .container-for-button123 .but {
     width: 30%;
   }
-  .overlay p {
-    font-size: 9px;
-  }
+  
   .sec2 {
     flex-wrap: wrap;
   }
@@ -657,10 +667,10 @@ footer {
     flex-wrap: wrap;
   }
   .figures {
-    width: 45%;
+    flex-basis: 100%;
   }
   .footer {
-    height: 450px;
+    height: 550px;
     position: relative;
     padding: 0;
     padding-top: 20px;
@@ -668,7 +678,22 @@ footer {
   .foot-wrap {
     margin-top: 50px;
   }
-  .footer-form-input {
-    margin-bottom: 50px;
+  .footer-form-header {
+    margin: 0;
+    padding-bottom: 150px;
+    text-align: center;
   }
+  .footer-form-input {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+
+  }
+  .footer-form-btn {
+    margin: 0;
+    position: absolute;
+    top: 90px;
+   
+  }
+ 
 }
