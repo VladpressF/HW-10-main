@@ -20,17 +20,22 @@
     <div class="container">
       <img class="header-img" src="Img/webstudiochernii.png" alt="#" />
 
-      <nav class="header-nav">
-        <ul class="header-nav-list">
-          <li class="header-nav-item_active header_nav_link"><a href="#">Студія</a></li>
-          <li class="header-nav-item"><a href="portfolio.html" target="_blank">Портфоліо</a></li>
-          <li class="header-nav-item"><a href="#">Контакти</a></li>
-        </ul>
-      </nav>
-      <div class="mail-tel">
+      <nav class="nav">
+        <input class="nav_input" type="checkbox" id="toggle">
+        <label class="nav_label" for="toggle">
+          <span class="nav_label_span"></span>
+        </label>
+         <div class="mail-tel "></div>
         <a class="header-mail" href="mailto:@info.devstudio.com"><i class="icon-envelope"></i> @info.devstudio.com</a>
         <a class="header-tel" href="tel:+38096111111"><i class="icon-smartphone"></i>+38096111111</a>
       </div>
+        <ul class="header-nav-list nav_menu">
+          <li class="header-nav-item_active header_nav_link nav_menu_item"><a href="#">Студія</a></li>
+          <li class="header-nav-item nav_menu_item"><a href="portfolio.html" target="_blank">Портфоліо</a></li>
+          <li class="header-nav-item nav_menu_item"><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+     
     </div>
 
   </header>
