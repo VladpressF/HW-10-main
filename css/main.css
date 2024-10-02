@@ -867,10 +867,9 @@ table {
 }
 /* mobile menu */
 @media (max-width: 768px) {
+ 
   
-  .nav_input {
-    display: block;
-  }
+  
   .nav_label {
     display: block;
     height: 30px;
@@ -904,6 +903,7 @@ table {
   }
   .nav_menu {
     display: none;
+
   }
   .nav_input:checked ~ .nav_menu {
     display: flex;
@@ -920,16 +920,35 @@ table {
     top: 0;
     transform: rotate(90deg);
   }
+ 
   .nav_menu {
     position: absolute;
     top: 100px;
     left: 0;
     width: 100%;
+    height: 350px;
     padding: 20px;
     background: #fff;
     box-shadow: 0 12px 8px #ececec;
+    display: flex;
+    flex-direction: column;
+
+  
+  } 
+  .header {
+    position: relative; 
+    
+    
   }
+
   .nav_menu li {
-    margin: 15px 0;
-  }
+ 
+      }
+      .nav_menu li:not(:last-child) {
+        padding : 60px;
+      }
+ 
+  
+
+
 }
