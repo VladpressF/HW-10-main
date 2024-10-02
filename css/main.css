@@ -865,11 +865,16 @@ table {
 .nav_label_span {
   display: none;
 }
+
 /* mobile menu */
 @media (max-width: 768px) {
- 
-  
-  
+  * {
+    box-sizing: border-box;
+  }
+  .header-nav-item_active::after {
+    display: none;
+  }
+
   .nav_label {
     display: block;
     height: 30px;
@@ -903,7 +908,6 @@ table {
   }
   .nav_menu {
     display: none;
-
   }
   .nav_input:checked ~ .nav_menu {
     display: flex;
@@ -920,35 +924,57 @@ table {
     top: 0;
     transform: rotate(90deg);
   }
- 
+
   .nav_menu {
     position: absolute;
-    top: 100px;
+    top: 50px;
     left: 0;
     width: 100%;
     height: 350px;
-    padding: 20px;
     background: #fff;
-    box-shadow: 0 12px 8px #ececec;
-    display: flex;
-    flex-direction: column;
 
-  
-  } 
-  .header {
-    position: relative; 
-    
     
   }
 
-  .nav_menu li {
- 
-      }
-      .nav_menu li:not(:last-child) {
-        padding : 60px;
-      }
- 
-  
 
+  .header_nav_link {
+    padding: 0;
+    margin: 0;
+  }
+  .nav_menu_item {
+ 
+    font-size: 40px;
+    font-weight: 500;
+  }
+  .nav_menu {  
+     padding-bottom: 200px;
+  }
+  .header {
+    position: relative;
+  }
+  .header-tel {
+    z-index: 100;
+    color: black;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    display: block;
+font-size: 24px;
+font-weight: 500;
+text-align: center;
 
+  }
+
+  .header-mail {
+    display: block;
+    z-index: 100;
+    position: absolute;
+    top: 70px;
+    left: 380px;
+
+font-size: 24px;
+
+text-align: center;
+
+  }
 }
