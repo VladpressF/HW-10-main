@@ -595,6 +595,9 @@ table {
   left: 0;
   bottom: -15px;
 }
+.header-input-links {
+  display: none;
+}
 
 /* adaptive */
 
@@ -979,6 +982,7 @@ table {
     position: relative;
   }
   .header-input-links {
+    display: block ;
     position: absolute;
     bottom: 50px;
     left: 70px;
