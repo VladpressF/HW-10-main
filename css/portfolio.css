@@ -708,6 +708,7 @@ footer {
     width: 30px;
     margin-left: auto;
     position: relative;
+    z-index: 10;
   }
   .nav_label:hover {
     cursor: pointer;
@@ -740,7 +741,12 @@ footer {
   .nav_input:checked ~ .nav_menu {
     display: flex;
     flex-direction: column;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    top: 0 ;
   }
+
   .nav_input:checked ~ .nav_label_span {
     transform: rotate(-45deg);
   }
@@ -799,7 +805,7 @@ footer {
     font-size: 24px;
   }
   .mail-tel {
-    margin-top: 50px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
   }
